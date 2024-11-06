@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Itim", cursive
+    
+}
+
+/* titulos y parrafos */
+
+h1{
+  /*  color: #3460ac; */
+    font-size: 2rem;
+    text-align: center;
+
+}
+
+h2{
+    font-size: 2rem;
+}
+
+p{
+    font-size: 1rem;
+    text-align: justify;
+}
+
+/* header */
+
+.header{
+    background-image: radial-gradient(circle, #f29318, #f39829, #f49e36, #f4a342, #f5a84e);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    h1{
+        display: inline-block;
+        margin-left: 70px;
+        margin-bottom:30px;
+        text-shadow: -3px -1px 5px rgba(0,0,0,0.6);
+    }
+    a{
+
+        text-align: justify;
+        font-size: 1.5rem;
+    }
+    .listaHeader{
+        display: inline-block;
+        margin-left: 15px;
+        
+    }
+} 
+
+/* Main */
+
+.main{
+    background-image: radial-gradient(circle, #1877f2, #2b87f4, #4297f5, #5ba6f4, #74b4f2);
+    text-align: center;
+}
+
+.nuestrosProductos {
+    padding-top: 20px;
+    h2{
+        width: 30%;
+        margin: auto;
+        text-align: center;
+        border: 4px solid #74B4F2;
+        background-color: #1877F2;
+        border-radius: 10px;
+        box-shadow: 10px 10px 55px 0px rgba(0,0,0,0.75);
+                    -webkit-box-shadow: 10px 10px 55px 0px rgba(0,0,0,0.75);
+                    -moz-box-shadow: 10px 10px 55px 0px rgba(0,0,0,0.75);
+        padding: 10px;
+    }
+}
+
+.productosLista{
+    margin-top: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 30px;
+    div{
+        background-color: #74B4F2;
+        text-align: center;
+        border: 2px solid #74B4F2;
+        width: 200px;
+        height: 270px;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        box-shadow: 10px 10px 55px 0px rgba(0,0,0,0.75);
+        -webkit-box-shadow: 10px 10px 55px 0px rgba(0,0,0,0.75);
+        -moz-box-shadow: 10px 10px 55px 0px rgba(0,0,0,0.75);
+        img{
+            background-color: #25d366;
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+            width: 100%;
+            height: 75%;
+            object-fit: cover;
+        }
+    }
+
+}
+.nosotros{
+        margin-top: 70px;
+        h2{
+            width: 30%;
+            margin: auto;
+            text-align: center;
+            border: 4px solid #74B4F2;
+            background-color: #1877F2;
+            border-radius: 10px;
+            box-shadow: 10px 10px 55px 0px rgba(0,0,0,0.75);
+                        -webkit-box-shadow: 10px 10px 55px 0px rgba(0,0,0,0.75);
+                        -moz-box-shadow: 10px 10px 55px 0px rgba(0,0,0,0.75);
+            padding: 10px;
+            margin-bottom: 70px;
+        }
+
+        img{
+            width: 500px;
+            margin-bottom: 30px;
+
+
+        }
+
+            p{
+         margin-top: 100px;
+            text-align: justify;
+            margin: auto;
+            width: 80%;
+            letter-spacing: 1.5px;
+            margin-bottom: 40px;
+        }
+        
+}
+.divContacto{
+    a{
+        h2{
+            width: 25%;
+            margin: auto;
+            text-align: center;
+            border: 4px solid #74B4F2;
+            background-color: #1877F2;
+            border-radius: 10px;
+            box-shadow: 10px 10px 55px 0px rgba(0,0,0,0.75);
+                        -webkit-box-shadow: 10px 10px 55px 0px rgba(0,0,0,0.75);
+                        -moz-box-shadow: 10px 10px 55px 0px rgba(0,0,0,0.75);
+            padding: 10px;
+        }
+    }
+}
+
+
+/* Footer */
+
+.footer{
+    background-image: radial-gradient(circle, #f29318, #f39829, #f49e36, #f4a342, #f5a84e);
+
+
+    .fa-facebook{
+        color: #1877F2;
+        font-size: 32px;
+    }
+    .fa-instagram{
+        color: #833AB4;
+        font-size: 32px;
+    }
+    .fa-whatsapp {
+        color: #25d366;
+        font-size: 4em;
+        position: fixed;
+        bottom: 20px;
+        right: 20px;  
+     }
+}
+
+
+ /* header y footer */
+
+ header, footer{
+    .logo{
+        width: 100px;
+    }
+    ul{
+        list-style: none;
+    }
+    text-decoration: none;
+ }
+
+
+
+
